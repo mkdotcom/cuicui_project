@@ -1,0 +1,31 @@
+# cuicui itself and the modules are cloned here, not committed with your app
+cuicui_core/
+modules/*
+!modules/README.md
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+xcuserdata/
+
+# Android
+projects/android/.gradle/
+projects/android/build/
+projects/android/app/build/
+projects/android/app/.cxx/
+projects/android/app/src/main/assets/
+projects/android/local.properties
+
+# Web
+projects/web/build/
+
+# UWP
+projects/uwp/x64/
+projects/uwp/App/x64/
+projects/uwp/AppPackages/
+projects/uwp/App/Generated Files/
+projects/uwp/packages/
+*.user

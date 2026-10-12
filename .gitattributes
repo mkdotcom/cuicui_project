@@ -1,0 +1,13 @@
+# line endings: LF in the repository, native in the working copy;
+# shell scripts must stay LF (macOS / Linux / CI), Windows scripts CRLF
+* text=auto
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.jar binary
+
+*.pbxproj -text

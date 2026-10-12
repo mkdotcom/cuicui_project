@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="icon" type="image/png" href="fav_icon_png.png">
+<link rel="stylesheet" type="text/css" href="cuicui_core.css">
+<script src="cuicui_core.js"></script>
+<title>cuicui app</title>
+</head>
+
+<body style="user-select:none; font-family:sans-serif; margin:0;">
+	<!-- the root of the cuicui UI (must not have scrollbars) -->
+	<div id="cuiRootDiv" style="position:absolute; left:0px; top:0px; right:0px; bottom:0px; overflow:hidden">
+		<!-- hidden input used by central.OpenFilePicker() -->
+		<input type="file" accept="image/*" style="display:none" id="webFilePickerInputElement">
+	</div>
+
+	<noscript>This app requires JavaScript.</noscript>
+
+	<script>
+		var Module = {};
+
+		// Browser "back" button -> cuicui back button (see wWidget::LinkToHardwareBackButton())
+		window.onpopstate = function(event) {
+			history.pushState({page: 1}, "", "");
+			Module.ccall('back_button_event', 'number', ['number'], [0]);
+		};
+		history.pushState({page: 1}, "", "");
+	</script>
+	<script async src="a.out.js"></script>
+</body>
+</html>

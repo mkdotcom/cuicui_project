@@ -1,0 +1,5 @@
+<resources>
+    <!-- cuicui draws edge-to-edge and handles the system bars itself (see wSafeZone) -->
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar.TranslucentDecor">
+    </style>
+</resources>

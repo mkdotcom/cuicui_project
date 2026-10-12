@@ -1,0 +1,40 @@
+# Builds this template with the latest cuicui_core (web + Android).
+# In your own app, pin the core (submodule or tag) instead of cloning master.
+name: build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: mkdotcom/cuicui_core
+          path: cuicui_core
+      - uses: mymindstorm/setup-emsdk@v14
+        with:
+          version: 5.0.7
+      - name: Build (release)
+        run: sh projects/web/_compile.sh release
+
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: mkdotcom/cuicui_core
+          path: cuicui_core
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: android-actions/setup-android@v3
+      - name: Build (debug)
+        working-directory: projects/android
+        run: bash gradlew assembleDebug
