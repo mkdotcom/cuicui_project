@@ -22,6 +22,11 @@ projects/android/local.properties
 # Web
 projects/web/build/
 
+# iOS
+projects/ios/build/
+DerivedData/
+Pods/
+
 # UWP
 projects/uwp/x64/
 projects/uwp/App/x64/

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0261E8793D1456573EA60009 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A66C27D8E91978FEF08E0A3E /* timer.cpp */; };
+		0737DDD11BD103940D20F753 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB34B48274CD46B5F794A949 /* ViewController.mm */; };
+		0D613D4EDD91636F7417143A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46FA3B3647C57607821CF401 /* main.cpp */; };
+		2EAAE68C2911191226FDF6E3 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B116A669BFFF17E69309ECE5 /* main.mm */; };
+		35640F8FAF090292B50D8D41 /* cuicui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC0A018174CBA0346FA79665 /* cuicui.cpp */; };
+		42425E3A2A16E84DC7455228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4679811491588FD4A1D77124 /* Main.storyboard */; };
+		464BD32CD93DDEDA31CEFBFD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 46E5A639AD35422050E99C1E /* assets */; };
+		653737881FB30D54F31E0AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F90B4AE0049F1DB21D7D8C /* LaunchScreen.storyboard */; };
+		7013E7DC827B61D6B9B15CC7 /* local_storage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE7E7F5F3643D3DB0EA1E0F3 /* local_storage.cpp */; };
+		7A6C12FD6C85C3B6D54A8D67 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8616DBCDD2F5A8316A3562D1 /* SDWebImage */; };
+		9C1B4E186A6B4A52FEF0A869 /* wScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F78A5E271C1630F9F013B4F /* wScrollView.cpp */; };
+		9FFAD337F926F30854D9F75F /* wImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB0923F239F64244BEE7610E /* wImage.cpp */; };
+		A035B5C451F45C66835CD746 /* wBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA0561B81D211FBF0F35A125 /* wBase.cpp */; };
+		BE7429A1512454F7C04C352D /* wTextInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4E2F0E420349D9AE2193278 /* wTextInput.cpp */; };
+		BF77478826A49DE2FED28E78 /* web_request.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9463B9D382A488C99BD90CCE /* web_request.cpp */; };
+		DAE677E4B38B0B67F919A279 /* wText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58092CBC048C439C6A29666A /* wText.cpp */; };
+		EDCAB8C39A05935549211196 /* central.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A86BD6A2BD0093C0AD15845B /* central.cpp */; };
+		F382EE3B6CFB9B6FB8491D5F /* easing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E36C1E248B8A7594726FE85 /* easing.cpp */; };
+		F9924BDFDF8FD8F387D7FF2D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 423E2447105876C1AD919BD4 /* AppDelegate.mm */; };
+		F9EB1BFFC543769BDB369D55 /* wCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E962AEA746F2EA9D4B3822 /* wCalendar.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E36C1E248B8A7594726FE85 /* easing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = easing.cpp; sourceTree = "<group>"; };
+		3F78A5E271C1630F9F013B4F /* wScrollView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = wScrollView.cpp; sourceTree = "<group>"; };
+		411A93748CBDBAA0569F08D5 /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423E2447105876C1AD919BD4 /* AppDelegate.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AppDelegate.mm; sourceTree = "<group>"; };
+		46E5A639AD35422050E99C1E /* assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		46FA3B3647C57607821CF401 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = main.cpp; sourceTree = "<group>"; };
+		58092CBC048C439C6A29666A /* wText.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = wText.cpp; sourceTree = "<group>"; };
+		856805C07EAF54A22EB28DFA /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F18FB647EF852185960AA23 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9463B9D382A488C99BD90CCE /* web_request.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = web_request.cpp; sourceTree = "<group>"; };
+		97E962AEA746F2EA9D4B3822 /* wCalendar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; name = wCalendar.cpp; path = nws/wCalendar.cpp; sourceTree = "<group>"; };
+		A0BE1DD2217CCC9FEBE8E088 /* Base */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66C27D8E91978FEF08E0A3E /* timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = timer.cpp; sourceTree = "<group>"; };
+		A86BD6A2BD0093C0AD15845B /* central.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = central.cpp; sourceTree = "<group>"; };
+		B116A669BFFF17E69309ECE5 /* main.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = main.mm; sourceTree = "<group>"; };
+		BB34B48274CD46B5F794A949 /* ViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ViewController.mm; sourceTree = "<group>"; };
+		BC0A018174CBA0346FA79665 /* cuicui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = cuicui.cpp; sourceTree = "<group>"; };
+		E702A53F133BC6A71B0E00C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0561B81D211FBF0F35A125 /* wBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = wBase.cpp; sourceTree = "<group>"; };
+		F4E2F0E420349D9AE2193278 /* wTextInput.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = wTextInput.cpp; sourceTree = "<group>"; };
+		FB0923F239F64244BEE7610E /* wImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = wImage.cpp; sourceTree = "<group>"; };
+		FE7E7F5F3643D3DB0EA1E0F3 /* local_storage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; includeInIndex = 1; path = local_storage.cpp; sourceTree = "<group>"; };
+		FFBA17D2A9DB44EDFD3FE444 /* CuicuiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuicuiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5678D8A9E196EA7C8A364B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6C12FD6C85C3B6D54A8D67 /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0811AF49DBE713A9B5955DF6 /* CuicuiApp */ = {
+			isa = PBXGroup;
+			children = (
+				B116A669BFFF17E69309ECE5 /* main.mm */,
+				423E2447105876C1AD919BD4 /* AppDelegate.mm */,
+				BB34B48274CD46B5F794A949 /* ViewController.mm */,
+				411A93748CBDBAA0569F08D5 /* AppDelegate.h */,
+				856805C07EAF54A22EB28DFA /* ViewController.h */,
+				E702A53F133BC6A71B0E00C0 /* Info.plist */,
+				4679811491588FD4A1D77124 /* Main.storyboard */,
+				F1F90B4AE0049F1DB21D7D8C /* LaunchScreen.storyboard */,
+			);
+			name = CuicuiApp;
+			path = CuicuiApp;
+			sourceTree = "<group>";
+		};
+		352BD2DBDFE84A8F81A2CA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA17D2A9DB44EDFD3FE444 /* CuicuiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6171491F750EE6D34B48D727 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				46FA3B3647C57607821CF401 /* main.cpp */,
+				46E5A639AD35422050E99C1E /* assets */,
+			);
+			name = app;
+			path = ../../app;
+			sourceTree = "<group>";
+		};
+		A1BCD6245699C56D5E400C13 /* cuicui_core */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A018174CBA0346FA79665 /* cuicui.cpp */,
+				A86BD6A2BD0093C0AD15845B /* central.cpp */,
+				1E36C1E248B8A7594726FE85 /* easing.cpp */,
+				FE7E7F5F3643D3DB0EA1E0F3 /* local_storage.cpp */,
+				A66C27D8E91978FEF08E0A3E /* timer.cpp */,
+				9463B9D382A488C99BD90CCE /* web_request.cpp */,
+				EA0561B81D211FBF0F35A125 /* wBase.cpp */,
+				FB0923F239F64244BEE7610E /* wImage.cpp */,
+				3F78A5E271C1630F9F013B4F /* wScrollView.cpp */,
+				58092CBC048C439C6A29666A /* wText.cpp */,
+				F4E2F0E420349D9AE2193278 /* wTextInput.cpp */,
+				97E962AEA746F2EA9D4B3822 /* wCalendar.cpp */,
+			);
+			name = cuicui_core;
+			path = ../../cuicui_core;
+			sourceTree = "<group>";
+		};
+		B2383CACA8BD5C1C37EDD6B4 = {
+			isa = PBXGroup;
+			children = (
+				352BD2DBDFE84A8F81A2CA3C /* Products */,
+				0811AF49DBE713A9B5955DF6 /* CuicuiApp */,
+				6171491F750EE6D34B48D727 /* app */,
+				A1BCD6245699C56D5E400C13 /* cuicui_core */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D355B042F5BC1172D618DE8 /* CuicuiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51632925E763FF8888DEA583 /* Build configuration list for PBXNativeTarget "CuicuiApp" */;
+			buildPhases = (
+				4AB77E454B138F361C670C35 /* Sources */,
+				5678D8A9E196EA7C8A364B28 /* Frameworks */,
+				8674D69645D7ACBC09CE7CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuicuiApp;
+			packageProductDependencies = (
+				8616DBCDD2F5A8316A3562D1 /* SDWebImage */,
+			);
+			productName = CuicuiApp;
+			productReference = FFBA17D2A9DB44EDFD3FE444 /* CuicuiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6B787C417715D8884C2C3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 499CC3B26E46D46FDD532AE1 /* Build configuration list for PBXProject "CuicuiApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2383CACA8BD5C1C37EDD6B4;
+			minimizedProjectReferenceProxies = 0;
+			packageReferences = (
+				F3BE40B5E3A7D9A8DA08EE09 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 352BD2DBDFE84A8F81A2CA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D355B042F5BC1172D618DE8 /* CuicuiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8674D69645D7ACBC09CE7CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42425E3A2A16E84DC7455228 /* Main.storyboard in Resources */,
+				653737881FB30D54F31E0AFA /* LaunchScreen.storyboard in Resources */,
+				464BD32CD93DDEDA31CEFBFD /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB77E454B138F361C670C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAAE68C2911191226FDF6E3 /* main.mm in Sources */,
+				F9924BDFDF8FD8F387D7FF2D /* AppDelegate.mm in Sources */,
+				0737DDD11BD103940D20F753 /* ViewController.mm in Sources */,
+				0D613D4EDD91636F7417143A /* main.cpp in Sources */,
+				35640F8FAF090292B50D8D41 /* cuicui.cpp in Sources */,
+				EDCAB8C39A05935549211196 /* central.cpp in Sources */,
+				F382EE3B6CFB9B6FB8491D5F /* easing.cpp in Sources */,
+				7013E7DC827B61D6B9B15CC7 /* local_storage.cpp in Sources */,
+				0261E8793D1456573EA60009 /* timer.cpp in Sources */,
+				BF77478826A49DE2FED28E78 /* web_request.cpp in Sources */,
+				A035B5C451F45C66835CD746 /* wBase.cpp in Sources */,
+				9FFAD337F926F30854D9F75F /* wImage.cpp in Sources */,
+				9C1B4E186A6B4A52FEF0A869 /* wScrollView.cpp in Sources */,
+				DAE677E4B38B0B67F919A279 /* wText.cpp in Sources */,
+				BE7429A1512454F7C04C352D /* wTextInput.cpp in Sources */,
+				F9EB1BFFC543769BDB369D55 /* wCalendar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4679811491588FD4A1D77124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BE1DD2217CCC9FEBE8E088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1F90B4AE0049F1DB21D7D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F18FB647EF852185960AA23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02578EE6A75A920A9E3E38B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CUICUI_IOS,
+					NDEBUG,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../..",
+				);
+				INFOPLIST_FILE = CuicuiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cuicuiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0274C02B4DB6DF621760BC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A6D1363C05D3CBADE1C17B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCE97FFAD7A0751E701C8432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CUICUI_IOS,
+					"DEBUG=1",
+					CUICUI_DEBUG,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../..",
+				);
+				INFOPLIST_FILE = CuicuiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cuicuiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499CC3B26E46D46FDD532AE1 /* Build configuration list for PBXProject "CuicuiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0274C02B4DB6DF621760BC19 /* Debug */,
+				4A6D1363C05D3CBADE1C17B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51632925E763FF8888DEA583 /* Build configuration list for PBXNativeTarget "CuicuiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02578EE6A75A920A9E3E38B7 /* Release */,
+				FCE97FFAD7A0751E701C8432 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3BE40B5E3A7D9A8DA08EE09 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8616DBCDD2F5A8316A3562D1 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3BE40B5E3A7D9A8DA08EE09 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AF6B787C417715D8884C2C3A /* Project object */;
+}

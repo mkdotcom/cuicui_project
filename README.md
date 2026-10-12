@@ -1,8 +1,8 @@
 # cuicui_project
 
 A ready-to-use, minimal [cuicui](https://github.com/mkdotcom/cuicui_core) app:
-a title, an image, a text input with a button, and a scrollable list — for Android, the Web and
-Windows (UWP).
+a title, an image, a text input with a button, and a scrollable list — for Android, iOS, the Web
+and Windows (UWP).
 
 ```text
 cuicui_project/
@@ -13,6 +13,7 @@ cuicui_project/
 ├── modules/            optional cuicui modules (cloned)
 └── projects/
     ├── android/        Android Studio / Gradle project
+    ├── ios/            Xcode project
     ├── web/            emscripten build scripts
     └── uwp/            Visual Studio solution (Windows UWP)
 ```
@@ -31,8 +32,8 @@ cuicui_project/
 4. Build for the platform(s) you want (below).
 
 Your C++ files: every `.cpp` in `app/` is compiled automatically on Android. For the other
-platforms, add new files to `projects/web/your_app_cpp_files.txt` and to the Visual Studio
-project.
+platforms, add new files to `projects/web/your_app_cpp_files.txt`, to the Xcode project and to the
+Visual Studio project.
 
 ### Android
 - Open `projects/android` with Android Studio (JDK 17, NDK 27), or run
@@ -55,8 +56,17 @@ project.
 - Change the app identity and visual assets in `projects/uwp/App/Package.appxmanifest`.
 
 ### iOS
-cuicui supports iOS, but this template has **no Xcode project yet** (it will be added later).
-Note: every `.cpp` file must be compiled as Objective-C++ on iOS.
+- Open `projects/ios/CuicuiApp.xcodeproj` with Xcode (on a Mac). Xcode downloads
+  [SDWebImage](https://github.com/SDWebImage/SDWebImage) (used by `wImage` for images from URLs)
+  through Swift Package Manager the first time.
+- Select the `CuicuiApp` target, *Signing & Capabilities*: choose your team (the project has none)
+  and change the bundle identifier (currently `com.example.cuicuiapp`).
+- Run on a simulator or a device. `app/assets/` is copied into the app as the `assets` folder.
+- When you add a `.cpp` file to the Xcode project, set its type to **Objective-C++ Source**
+  (File inspector, *Type*): on iOS, cuicui's headers contain Objective-C.
+- The host code is in `projects/ios/CuicuiApp/`: `ViewController.mm` starts cuicui and implements
+  what cuicui needs from the app (photo picker, camera, status bar: the `CuiHostViewController`
+  protocol of `cuicui_core/ios/cuicui_ios_host.h`). Change the app name in `Info.plist`.
 
 ## Learn more
 - [cuicui README](https://github.com/mkdotcom/cuicui_core) — what cuicui is
