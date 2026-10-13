@@ -10,7 +10,7 @@ cuicui_project/
 │   ├── main.cpp        your app (start here: InitMyApp())
 │   └── assets/         images and other files, available to wImage etc.
 ├── cuicui_core/        cuicui itself (cloned, see below)
-├── modules/            optional cuicui modules (cloned)
+├── modules/            optional cuicui modules (cloned, see modules/README.md)
 └── projects/
     ├── android/        Android Studio / Gradle project
     ├── ios/            Xcode project

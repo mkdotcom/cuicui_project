@@ -1,5 +1,5 @@
 # Builds this template with the latest cuicui_core (web + Android).
-# In your own app, pin the core (submodule or tag) instead of cloning master.
+# In your own app, pin the core (submodule or tag) instead of cloning its main branch.
 name: build
 
 on:
